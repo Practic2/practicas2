@@ -39,5 +39,13 @@ public class Cliente {
      public String getApellido(){
          return apellido;
      }
+     @Override
+     public String toString (){
+         String t;
+         t = "Cedula: " + cedula + "\n";
+         t = t + "Nombres: " + nombre + "\n";
+         t = t + "Apellidos: " + apellido;
+         return t;
+     }
 }
     
